@@ -9,7 +9,7 @@ import {
 } from '@expo-google-fonts/play';
 
 import Header from './src/components/Header';
-import Home from './src/pages/Home';
+import Routes from './src/routes';
 
 export default function App() {
 
@@ -29,9 +29,8 @@ export default function App() {
 
     return (
       <View style={styles.container}>
-        <Header />
-        <Home />
-        <StatusBar style="auto" />
+        <Routes />
+        <StatusBar style="light" />
       </View>
     );
   
@@ -42,6 +41,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0B1F34',
   },
 });
