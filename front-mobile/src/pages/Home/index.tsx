@@ -3,7 +3,7 @@ import { View, Image, StyleSheet, Text, Alert } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 import { FontAwesome5 as Icon } from '@expo/vector-icons';
 import Header from '../../components/Header';
-import { NavigationContainer, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 const Home = () => {
 
