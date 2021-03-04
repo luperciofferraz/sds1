@@ -5,7 +5,7 @@ Sistema de um catálogo de Games e seus respectivos Gêneros, onde o usuário es
 O projeto está subdividido da seguinte forma:
 
 - Front-Web: corresponde ao Front-End da aplicação, desenvolvido em React.
-- Front-Mobile: corresponde ao projeto Mobile, desenvolvido em React Native (Ainda não disponível)
+- Front-Mobile: corresponde ao projeto Mobile, desenvolvido em React Native.
 - Back-end: corresponde ao Back-End do projeto, desenvolvido em Spring Boot (Java).
 
 Desenvolvido utilizando Spring Boot, o Back-End do projeto foi concebido utilizando as melhores práticas em arquitetura de API java, sendo dividido nas seguintes camadas:
